@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color:#9c8bc1 ;
+    padding: 2px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 66px;
+    font-family: 'Edwardian Script ITC';
+    margin-left: 2%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+    position: right;
+    margin-right: -2%;
+    font-family: Century Gothic;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Century Gothic;
+}
+
+.hero-text h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+.cta-button {
+    background-color: #8a5e9f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+footer {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: left;
+    position: relative;
+    font-family: Century Gothic;
+
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+    margin-left: 2%;
+
+}
+
+.social-icons {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+
+}

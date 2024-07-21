@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de imágenes</title>
+
+  <link rel="stylesheet" href="css/css.css">
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+
+</head>
+<body>
+
+  <header>
+        
+            <div class="logo"><a href="index.html">Plumaperú</a></div>
+            <ul class="nav-links">
+
+                <li><a link rel="stylesheet" href="formulario_yzma.html">COMPRA ONLINE</a></li>
+                <li><a link rel="stylesheet" href="galeria_de_imagenes_yzma.html">PRODUCTOS</a></li>
+                <li><a href="#">SUCURSALES</a></li>
+                <li><a href="#">BUSCAR</a></li>
+                <li><a href="#">WISHLIST</a></li>
+            </ul>
+        
+    </header>
+    <center>
+    <h1 class="hero-uno">Nuestros Productos</h1>
+    </center>
+  <div class="gallery">
+  
+  <div class="column">
+      <a href="img/tapado3n.jpeg" data-fancybox="gallery" data-caption="tapado">
+  <img src="img/tapado3n.jpeg" class="miniaturas" />
+</a>
+ <a href="img/tapado4.jpeg" data-fancybox="gallery" data-caption="tapado">
+  <img src="img/tapado4.jpeg" class="miniaturas" />
+</a>
+
+
+ <a href="img/tapado5.jpeg" data-fancybox="gallery" data-caption="tapado">
+  <img src="img/tapado5.jpeg" class="miniaturas" />
+</a>
+      </div>
+   
+    <div class="column">
+       <a href="img/tapado6.jpeg" data-fancybox="gallery" data-caption="tapado">
+  <img src="img/tapado6.jpeg" class="miniaturas" />
+</a>
+      
+       <a href="img/tapado7.jpeg" data-fancybox="gallery" data-caption="tapado">
+  <img src="img/tapado7.jpeg" class="miniaturas" />
+</a>
+      
+      <a href="img/tapado8.jpeg" data-fancybox="gallery" data-caption="tapado">
+  <img src="img/tapado8.jpeg" class="miniaturas" />
+</a>
+      
+       <a href="img/tapado12.jpeg" data-fancybox="gallery" data-caption="tapado">
+  <img src="img/tapado12.jpeg" class="miniaturas" />
+</a>
+      
+    </div>
+     </div>
+  
+
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
+
+  <script src="scripts.js"></script>
+
+  <footer class="footerimg">
+        <p>Delfi Travascio</p>
+        <div class="social-icons">
+            <a href="#"><img src="img/wpp.png" alt="WhatsApp"></a>
+            <a href="#"><img src="img/ig.png" alt="Instagram"></a>
+            <a href="#"><img src="img/tiktok.png" alt="TikTok"></a>
+        </div>
+    </footer>
+
+<script>
+  Fancybox.bind('[data-fancybox="gallery"]', {
+  // Your custom options for a specific gallery
+});
+</script>
+
+</body>
+</html>
